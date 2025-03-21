@@ -1,6 +1,7 @@
 # Minecraft Death Location Finder
 
 This script finds the last death location of a player in a Minecraft world. It uses the provided Python script to read the NBT data of the Minecraft world.
+**1.21 ONLY**
 
 ## Prerequisites
 
@@ -24,10 +25,6 @@ This project uses a `requirements.txt` file to manage dependencies. This file li
     This command will install all the packages listed in the `requirements.txt` file.
 
 3.  **Download Script:** Download the Python file (`death_location_finder.py`) containing the script to find the death location.
-
-## Configuration
-
-There is currently no configuration file. The script interactively prompts for the required information. Future versions may use a configuration file to store this information.
 
 ## Usage
 
