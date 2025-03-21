@@ -1,6 +1,7 @@
 # Minecraft Death Location Finder
 
 This script finds the last death location of a player in a Minecraft world. It uses the provided Python script to read the NBT data of the Minecraft world.
+
 **1.21 ONLY**
 
 ## Prerequisites
