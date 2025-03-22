@@ -30,6 +30,16 @@ def findPlayerFile(uuid:str, world_name:str):
 
     return None
 
+def doesDeathLocationExist(file_name:str, world_name:str):
+    nbt_file = nbt.NBTFile(os.path.join(minecraft_path, "saves", world_name, "playerdata", file_name),'rb')
+
+    try:
+        nbt_file["LastDeathLocation"]
+        return True
+    except KeyError:
+        return False
+
+
 def getDeathLocation(file_name:str, world_name:str):
     nbt_file = nbt.NBTFile(os.path.join(minecraft_path, "saves", world_name, "playerdata", file_name),'rb')
 
@@ -55,6 +65,10 @@ if __name__ == "__main__":
     file_name = findPlayerFile(uuid, world_name)
     if file_name == None:
         print("Could not find player data")
+        exit(1)
+
+    if not doesDeathLocationExist(file_name, world_name):
+        print("This player has no death location")
         exit(1)
 
     dimension, pos = getDeathLocation(file_name, world_name)
