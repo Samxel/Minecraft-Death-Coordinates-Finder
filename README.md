@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/Samxel/Minecraft-Death-Coordinates-Finder" alt="GitHub release">
-  <img src="https://img.shields.io/github/downloads/Samxel/Minecraft-Death-Coordinates-Finder/total" alt="GitHub all releases">
-  <img src="https://img.shields.io/github/issues/Samxel/Minecraft-Death-Coordinates-Finder" alt="GitHub issues">
+  <img src="https://img.shields.io/github/v/release/Samxel/Minecraft-Death-Location-Finder" alt="GitHub release">
+  <img src="https://img.shields.io/github/downloads/Samxel/Minecraft-Death-Location-Finder/total" alt="GitHub all releases">
+  <img src="https://img.shields.io/github/issues/Samxel/Minecraft-Death-Location-Finder" alt="GitHub issues">
 </p>
 
 ## Prerequisites
