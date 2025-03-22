@@ -1,8 +1,18 @@
-# Minecraft Death Location Finder
 
-This script finds the last death location of a player in a Minecraft world. It uses the provided Python script to read the NBT data of the Minecraft world.
+<h1 align="center">Minecraft Death Location Finder</h1>
 
-**1.21 ONLY**
+<p align="center">
+   This script finds the last death location of a player in a Minecraft world.
+   <br>
+   It uses the provided Python script to read the NBT data of the Minecraft world.
+   <br>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/Samxel/Minecraft-Death-Coordinates-Finder" alt="GitHub release">
+  <img src="https://img.shields.io/github/downloads/Samxel/Minecraft-Death-Coordinates-Finder/total" alt="GitHub all releases">
+  <img src="https://img.shields.io/github/issues/Samxel/Minecraft-Death-Coordinates-Finder" alt="GitHub issues">
+</p>
 
 ## Prerequisites
 
